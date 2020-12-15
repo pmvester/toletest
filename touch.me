@@ -16,4 +16,6 @@
 16 yep. If you make a change on github, and then do a git status locally in the corresponding branch
 17 local git reports that branches are in sync. However, if you then do a fetch from local, git detects
 18 the changes
+19 even doing git diff main origin/main reports no diffs, until fetch is done. After fetch is done,
+20 diff main origin/main detects diffs, and asks for git pull to update.
 
